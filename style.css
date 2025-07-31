@@ -3,6 +3,18 @@
     padding: 0;
 }
 
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+main {
+    background: url("bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
 a {
     color: #fff;
     text-decoration: none;
@@ -13,12 +25,6 @@ a:hover {
     opacity: .7;
 }
 
-.logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -26,12 +32,6 @@ nav {
     font-family: system-ui, -apple-system, 'Helvetica', 'Arial', sans-serif;
     background: #23232e;
     height: 8vh;
-}
-
-main {
-    background: url("bg.jpg") no-repeat center center;
-    background-size: cover;
-    height: 92vh;
 }
 
 .nav-list {
